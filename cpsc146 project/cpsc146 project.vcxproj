@@ -43,6 +43,7 @@
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonFont>true</Allegro_AddonFont>
     <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_LibraryType>StaticMonolithRelease</Allegro_LibraryType>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -66,6 +67,7 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
